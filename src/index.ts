@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT ||3000;
+const port = process.env.PORT || 3000;
 
 // Обработчик GET запроса на корневой URL
-app.get('/', (req:any, res:any) => {~``
+app.get('/', (req:any, res:any) => {
   res.send('Привет, мир!');
 });
 
