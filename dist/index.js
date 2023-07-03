@@ -1,11 +1,10 @@
 "use strict";
 const express = require('express');
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 3000;
 // Обработчик GET запроса на корневой URL
 app.get('/', (req, res) => {
-    ~``;
-    res.send('Привет, мир!');
+    res.send('Привет, мир!11');
 });
 // Обработчик POST запроса на URL '/login'
 app.post('/login', (req, res) => {
