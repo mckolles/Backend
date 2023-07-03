@@ -4,7 +4,7 @@ const port = process.env.PORT || 3000;
 
 // Обработчик GET запроса на корневой URL
 app.get('/', (req:any, res:any) => {
-  res.send('Привет, мир!');
+  res.send('Привет, мир!11');
 });
 
 // Обработчик POST запроса на URL '/login'
